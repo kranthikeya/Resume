@@ -1,0 +1,286 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape kranthi kumar dande } \\ \vspace{10pt}\
+    \small \raisebox{-0.1\height}\faPhone\ +91-8978706271~
+    \href{vasanth.svvan5@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kranthikeyadande@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/kranthi-kumar-dande-615502279/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Linkedin/Kranthi kumar dande}}
+    \href{https://github.com/kranthikeya}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/kranthikeya
+}}
+    \vspace{-2pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{{Career Objective:}}
+    \resumeSubHeadingListStart
+        \resumeItem{Passionate web developer with a solid foundation in the MERN stack and a strong aptitude for troubleshooting and technical support. Eager to leverage my technical skills, problem-solving abilities, and experience in mentoring to contribute as a Technical Research Analyst. Seeking to help Intellipaat maintain its reputation for quality and innovation in online professional training.}{}{}
+       
+    \resumeSubHeadingListEnd
+  
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chaitanya Bharathi Institute of Technology}{Nov. 2022 -- Jun. 2025}
+      {Bachelor of Engineering in Information Technology}{GPA: 8.0/10.0}
+      \resumeSubheading
+      {VMR Polytechnic College}{2019 --  2022}
+      {Diploma in Computer Science Engineering}{Percentage: 9.4/10.0}
+      \resumeSubheading
+      {Jawahar Navodaya Vidyalaya - siddipet }{2018 --  2019}
+      {Central Board of Secondary Education(CBSE)}{Percentage: 85.0}
+  \resumeSubHeadingListEnd
+
+\vspace{-6pt}
+
+%-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Technophilia Solutions }{June 2023 -- July 2023}
+%       {Data Science, Internship}{}
+%       \resumeItemListStart
+%         \resumeItem{During my tenure as a Data Science intern, I had the invaluable opportunity to work extensively with a diverse array of ML and Deep Learning models. I gained hands-on experience in designing, developing, and fine-tuning various models.}
+%         \resumeItem{Worked on Image Classification using the \textbf{MNIST} dataset, Achieved a highest test accuracy of \textbf{97.72\%}  with the Flatten-layer model.}
+      
+
+%         \resumeItem{Tech Stack : Tensorflow, Matplotlib, Seaborn}
+%       \resumeItemListEnd
+
+    
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+            \resumeProjectHeading
+          {\textbf{Food-Del, july 2024} }{}
+          \resumeItemListStart
+            \resumeItem{Developed a fully responsive website using MERN stack for seamless user experience across devices.}
+            \resumeItem{Implemented a user-friendly interface with advanced search filters for easy navigation and selection of food items.}
+           
+          \resumeItemListEnd
+          \vspace{-15pt} 
+
+          
+            \resumeProjectHeading
+          {\textbf{AgVenture, October 2022 – April 2023 }}{}
+          \resumeItemListStart
+            \resumeItem{Developed Agventure, an online platform for crop product trading, facilitating transactions between farmers and
+customers.}
+            \resumeItem{Built using technologies: d-jango project}
+           
+          \resumeItemListEnd
+          \vspace{-15pt} 
+  
+          
+    \resumeProjectHeading
+          {\textbf{	 						
+Laptop Price Prediction}}{}
+          \resumeItemListStart
+            \resumeItem{optimal platform to check the daily shuffling prices of the product-laptops in various online websites.}
+            \resumeItem{Tools \& technologies used: ML project stack(python, mangodb database , HTML, CSS -front-end) }
+          \resumeItemListEnd
+          \vspace{-15pt}    
+    \resumeSubHeadingListEnd
+\vspace{2pt}
+            
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java} \\
+     \textbf{Development and Frameworks}{: Bootstrap, HTML, CSS, Javascript, React,Express.js, Node.js} \\
+    
+     \textbf{DataBase}{: MangoDb, MySQL} \\
+     \textbf{Systems}{:  experience with Linux and Windows} \\
+    
+     \textbf{Productive Skills}{: Data Structures and Algorithms, Object Oriented Programming, Machine Learning, , Data Base Management System, SQL .} \\
+
+    \textbf{Cloud Technologies}{: AWS Cloud.} \\
+    \textbf{System Design}
+% \textbf{Miscellaneous}{: Canva.}} \\
+    
+     } }\end{itemize}
+ \vspace{-10pt}
+ 
+
+ \section{Courses}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{}{Data Structures and Algorithms} \\
+    \textbf{}{MERN stack} \\
+    \textbf{}{Python} \\
+    \textbf{}{Machine Learning} \\
+     \textbf{LeetCode}{: Solved around \textbf{200+} problems } \\
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Codegnan intership}{ : Machine Learning(intern)  } \\
+    \textbf{Infosys Springboard}{ : Artificial Intelligence Foundation Certification } \\
+    \textbf{Infosys Springboard}{ : Machine Learning Foundation Certification } \\
+    \textbf{Infosys Springboard}{ : Cyber Security Foundation Certification  } \\
+    \textbf{EDSPREAD}{ : MERN Stack Development Certification  } \\
+   
+    %  \textbf{LeetCode}{: Solved around \textbf{100+} problems } \\
+    % \textbf{LeetCode}{: Solved around \textbf{100+} problems } \\
+     
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+\section{Freelancer Experience}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+     \resumeProjectHeading
+          {\textbf{Valam, August 2024 – Septemper 2024 (frontend-developer) }}{}
+          \resumeItemListStart
+            \resumeItem{developed Forntend for online platform for Cab serives, Built a responsive user interface using react.js  }
+           
+          \resumeItemListEnd
+   
+    %  \textbf{LeetCode}{: Solved around \textbf{100+} problems } \\
+    % \textbf{LeetCode}{: Solved around \textbf{100+} problems } \\
+     
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+%-----------INVOLVEMENT---------------
+\section{{Soft Skills}}
+    \resumeSubHeadingListStart
+        \resumeItem{Observation, Presentation, Decision making, Time Management, Communication, Problem solving, Multi-tasking, Teamwork.}{}{}
+        \resumeSubheading{Events Organiser :}{March 2023}{ CBIT SUDHEE TECHSTACY.}{}
+    \resumeSubHeadingListEnd
+  
+\end{document}%-------------------------
